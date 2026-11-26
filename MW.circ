@@ -66,7 +66,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Sel_Valor"/>
     </comp>
-    <comp lib="0" loc="(400,430)" name="Pin">
+    <comp lib="0" loc="(390,390)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="ESCREVE"/>
     </comp>
@@ -103,6 +103,9 @@
       <a name="facing" val="south"/>
       <a name="label" val="SelRB"/>
       <a name="width" val="2"/>
+    </comp>
+    <comp lib="6" loc="(380,430)" name="Button">
+      <a name="label" val="ESCREVER"/>
     </comp>
     <comp lib="6" loc="(580,1100)" name="LED">
       <a name="facing" val="north"/>
@@ -158,8 +161,8 @@
     <wire from="(240,100)" to="(240,960)"/>
     <wire from="(240,100)" to="(490,100)"/>
     <wire from="(240,960)" to="(570,960)"/>
+    <wire from="(380,430)" to="(530,430)"/>
     <wire from="(390,130)" to="(470,130)"/>
-    <wire from="(400,430)" to="(530,430)"/>
     <wire from="(440,70)" to="(450,70)"/>
     <wire from="(450,70)" to="(450,140)"/>
     <wire from="(470,130)" to="(470,140)"/>
